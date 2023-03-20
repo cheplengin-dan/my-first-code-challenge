@@ -1,9 +1,9 @@
 // We use Math.random() method to generate a random decimal
 // number between 0 and 1. Math.floor() rounds down the number.
 
-
-
 let score = Math.floor(Math.random() * 100) + 0;
+
+// we use if else to check for conditions.
 
 function checkScore(score) {
     if ( score >= 79) {
